@@ -2,7 +2,7 @@
 
 ## Getting started
 
-This is a basic VueJs and Vue Router skeleton written on JavaScript using promise via axio. Great for building a starter web app.
+This is a basic VueJs 2 and Vue Router skeleton written on JavaScript using promise via axio. Great for building a starter web app.
 
 This project is created to help other developers create a **basic VueJS app in an easy way**. This basic example shows how powerful and simple JavaScript and VueJS can be.
 
@@ -15,8 +15,9 @@ This project is created to help other developers create a **basic VueJS app in a
 *   Landing page.
 *   Protected home page.
 *   Login.
-*   Signup.
+*   Register.
 *   Forgot password.
+*   Testing with Cypress and mocha/chai.
 *   NPM script for keeping good source code formatting using prettier and ESLint.
 *   Use of ESLint for good coding practices.
 *   Use of prettier for beautiful format.
@@ -29,7 +30,7 @@ This project is created to help other developers create a **basic VueJS app in a
 1.  Clone the project from github. Change "myproject" to your project name.
 
 ```bash
-git clone
+git clone https://github.com/maheshwar-tigadi/vue-2-basic-boilerplate.git ./myproject
 ```
 
 ### Using manual download ZIP
@@ -71,12 +72,6 @@ npm run test
 
 ```bash
 npm run lint
-```
-
-### Formatting markdown files
-
-```bash
-npm run remark
 ```
 
 ### Run your end-to-end tests

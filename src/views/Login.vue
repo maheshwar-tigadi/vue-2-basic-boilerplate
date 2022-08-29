@@ -16,6 +16,7 @@
               <input
                 v-model="user.email"
                 type="email"
+                name="email"
                 placeholder="Email"
                 class="form-control"
               >
@@ -31,6 +32,7 @@
               <input
                 v-model="user.password"
                 type="password"
+                name="password"
                 placeholder="Password"
                 class="form-control"
               >
@@ -45,7 +47,7 @@
       </div>
       <div slot="footer">
         No account?
-        <router-link :to="{ name: 'register' }">Register</router-link>
+        <router-link class="btnForgotPassword" :to="{ name: 'register' }">Register</router-link>
       </div>
     </v-card>
   </v-layout>

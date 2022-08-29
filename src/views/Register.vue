@@ -46,6 +46,7 @@
               <input
                 v-model="user.email"
                 type="email"
+                name="email"
                 placeholder="Email"
                 class="form-control"
               >
@@ -61,6 +62,7 @@
               <input
                 v-model="user.password"
                 type="password"
+                name="password"
                 placeholder="Password"
                 class="form-control"
               >

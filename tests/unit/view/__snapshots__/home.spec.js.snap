@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home.test.js has the expected html structure 1`] = `
+<v-layout-stub>
+  <v-card-stub
+    contextualstyle="dark"
+  >
+    <span>
+      
+      Welcome!
+    
+    </span>
+     
+    <div>
+      <p>
+        
+        Get started with the Vue 2 boilerplate
+      
+      </p>
+      
+      
+    
+    </div>
+     
+    <div>
+      
+      Made with love by webtutorials.dev
+    
+    </div>
+  </v-card-stub>
+</v-layout-stub>
+`;

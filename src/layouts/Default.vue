@@ -44,7 +44,7 @@
         </ul>
         <span class="navbar-text" title="sign out">
           <a
-            class="btn btn-secondary"
+            class="btnLogout btn btn-secondary"
             href="#"
             @click.prevent="logout"
           >
